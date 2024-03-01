@@ -46,7 +46,7 @@ public class Main {
         var differenceWeight=boxer2Weight-boxer1Weight;
         System.out.println(differenceWeight);
                                                            // задача 7
-        var remains=summaryWeight%differenceWeight;        //непонятно, остаток между весами боксеров или между суммой и разницей, в условиях не указано
+        var remains=boxer2Weight%boxer1Weight;
         System.out.println(remains);
                                                             // задача 8.1
         var totalHours=640;
